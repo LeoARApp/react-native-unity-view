@@ -36,8 +36,6 @@ extern "C" void InitUnity()
     }
     unity_inited = true;
 
-    UnityInitStartupTime();
-    
     @autoreleasepool
     {
         UnityInitTrampoline();
